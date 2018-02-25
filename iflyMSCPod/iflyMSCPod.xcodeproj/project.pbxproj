@@ -15,6 +15,19 @@
 		A459235C2042A53800F799BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A459235B2042A53800F799BF /* main.m */; };
 		A45923662042A53800F799BF /* iflyMSCPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45923652042A53800F799BF /* iflyMSCPodTests.m */; };
 		A45923712042A53800F799BF /* iflyMSCPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45923702042A53800F799BF /* iflyMSCPodUITests.m */; };
+		A45923802042A5D700F799BF /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A459237F2042A5D600F799BF /* iflyMSC.framework */; };
+		A45923832042AB6D00F799BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923822042AB6D00F799BF /* libz.tbd */; };
+		A45923852042AB7500F799BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923842042AB7500F799BF /* AVFoundation.framework */; };
+		A45923872042AB7C00F799BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923862042AB7C00F799BF /* SystemConfiguration.framework */; };
+		A45923892042AB8800F799BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923882042AB8800F799BF /* Foundation.framework */; };
+		A459238B2042AB9C00F799BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A459238A2042AB9C00F799BF /* CoreTelephony.framework */; };
+		A459238D2042ABAF00F799BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A459238C2042ABAF00F799BF /* AudioToolbox.framework */; };
+		A459238F2042ABB700F799BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A459238E2042ABB700F799BF /* UIKit.framework */; };
+		A45923912042ABD800F799BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923902042ABD800F799BF /* CoreLocation.framework */; };
+		A45923932042ABE000F799BF /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923922042ABE000F799BF /* Contacts.framework */; };
+		A45923952042ABEA00F799BF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923942042ABEA00F799BF /* AddressBook.framework */; };
+		A45923972042ABF100F799BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923962042ABF100F799BF /* QuartzCore.framework */; };
+		A45923992042ABF800F799BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45923982042ABF700F799BF /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		A459236C2042A53800F799BF /* iflyMSCPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iflyMSCPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45923702042A53800F799BF /* iflyMSCPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iflyMSCPodUITests.m; sourceTree = "<group>"; };
 		A45923722042A53800F799BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A459237F2042A5D600F799BF /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		A45923822042AB6D00F799BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A45923842042AB7500F799BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A45923862042AB7C00F799BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A45923882042AB8800F799BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A459238A2042AB9C00F799BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A459238C2042ABAF00F799BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A459238E2042ABB700F799BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A45923902042ABD800F799BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A45923922042ABE000F799BF /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		A45923942042ABEA00F799BF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A45923962042ABF100F799BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A45923982042ABF700F799BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45923992042ABF800F799BF /* CoreGraphics.framework in Frameworks */,
+				A45923972042ABF100F799BF /* QuartzCore.framework in Frameworks */,
+				A45923952042ABEA00F799BF /* AddressBook.framework in Frameworks */,
+				A45923932042ABE000F799BF /* Contacts.framework in Frameworks */,
+				A45923912042ABD800F799BF /* CoreLocation.framework in Frameworks */,
+				A459238F2042ABB700F799BF /* UIKit.framework in Frameworks */,
+				A459238D2042ABAF00F799BF /* AudioToolbox.framework in Frameworks */,
+				A459238B2042AB9C00F799BF /* CoreTelephony.framework in Frameworks */,
+				A45923892042AB8800F799BF /* Foundation.framework in Frameworks */,
+				A45923872042AB7C00F799BF /* SystemConfiguration.framework in Frameworks */,
+				A45923852042AB7500F799BF /* AVFoundation.framework in Frameworks */,
+				A45923832042AB6D00F799BF /* libz.tbd in Frameworks */,
+				A45923802042A5D700F799BF /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +124,7 @@
 				A45923642042A53800F799BF /* iflyMSCPodTests */,
 				A459236F2042A53800F799BF /* iflyMSCPodUITests */,
 				A459234A2042A53800F799BF /* Products */,
+				A45923812042AB6D00F799BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,7 @@
 		A459234B2042A53800F799BF /* iflyMSCPod */ = {
 			isa = PBXGroup;
 			children = (
+				A459237E2042A5D600F799BF /* lib */,
 				A459234C2042A53800F799BF /* AppDelegate.h */,
 				A459234D2042A53800F799BF /* AppDelegate.m */,
 				A459234F2042A53800F799BF /* ViewController.h */,
@@ -130,6 +171,33 @@
 				A45923722042A53800F799BF /* Info.plist */,
 			);
 			path = iflyMSCPodUITests;
+			sourceTree = "<group>";
+		};
+		A459237E2042A5D600F799BF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A459237F2042A5D600F799BF /* iflyMSC.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A45923812042AB6D00F799BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A45923982042ABF700F799BF /* CoreGraphics.framework */,
+				A45923962042ABF100F799BF /* QuartzCore.framework */,
+				A45923942042ABEA00F799BF /* AddressBook.framework */,
+				A45923922042ABE000F799BF /* Contacts.framework */,
+				A45923902042ABD800F799BF /* CoreLocation.framework */,
+				A459238E2042ABB700F799BF /* UIKit.framework */,
+				A459238C2042ABAF00F799BF /* AudioToolbox.framework */,
+				A459238A2042AB9C00F799BF /* CoreTelephony.framework */,
+				A45923882042AB8800F799BF /* Foundation.framework */,
+				A45923862042AB7C00F799BF /* SystemConfiguration.framework */,
+				A45923842042AB7500F799BF /* AVFoundation.framework */,
+				A45923822042AB6D00F799BF /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +267,7 @@
 				TargetAttributes = {
 					A45923482042A53800F799BF = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					A45923602042A53800F799BF = {
 						CreatedOnToolsVersion = 9.2;
@@ -430,11 +498,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K58KSJ5P75;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iflyMSCPod/lib",
+				);
 				INFOPLIST_FILE = iflyMSCPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apple.iflyMSCPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d5637169-82f4-4e22-bd33-5301efdcbe68";
+				PROVISIONING_PROFILE_SPECIFIER = commonBundleIDDevelopmentProfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +520,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iflyMSCPod/lib",
+				);
 				INFOPLIST_FILE = iflyMSCPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apple.iflyMSCPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
