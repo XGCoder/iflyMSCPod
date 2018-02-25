@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "iflyMSCPod"
-s.version      = "0.0.1"
+s.version      = "0.0.3"
 s.summary      = "科大讯飞sdk"
 
 s.description  = <<-DESC
